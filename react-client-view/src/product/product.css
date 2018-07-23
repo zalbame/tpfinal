@@ -6,7 +6,7 @@
 .producto {
   width: 70%;
   height: auto;
-  border: 1px solid rgb(218, 233, 18);
+  border: 1px solid rgb(28, 209, 82);
   border-radius: 5px;
   margin: 2px;
   padding: 2px;
@@ -73,9 +73,9 @@
   height: 35px;
   width: 100%;
   border-radius: 5px;
-  border: 1px solid aquamarine;
+  border: 1px solid rgb(28, 209, 82);
   margin: 5px;
-  background-color: aquamarine;
+  background-color: rgb(28, 209, 82);
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
   font-size: 15px;
 }

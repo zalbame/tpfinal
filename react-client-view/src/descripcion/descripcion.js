@@ -28,7 +28,7 @@ class descripcion extends Component {
   }
 
   render() {   
-    
+
     return (
       <div>
         <Search />
