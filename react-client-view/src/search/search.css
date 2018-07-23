@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(218, 233, 18);
+  background-color: rgb(28, 209, 82);
 }
 
 .input{
@@ -42,13 +42,13 @@ form{
 }
 
 .contenedor-buscar{
-  background-color: aquamarine;
-  border-color: aquamarine;
+  background-color: rgb(28, 209, 82);
+  border-color:  rgb(28, 209, 82);
   border: 0px
 }
 
 .buscar{
   height: auto;
-  width: 40px;
+  width: 35px;
   border-radius: 50px;
 }
