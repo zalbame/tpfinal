@@ -16,7 +16,7 @@ class Looking extends Component {
 
   componentDidMount() {
     let id = queryString.parse(this.props.location.search);
-    fetch('http://localhost:3000/api/items?q=' + id.search).then((result) => { 
+    fetch('http://localhost:3001/api/items?q=' + id.search).then((result) => { 
       return result.json()
     }).then((result) => {
       this.setState({
@@ -30,7 +30,7 @@ class Looking extends Component {
     let id = queryString.parse(nextProps.location.search);
     let newId = id.search;
     if(newId !== this.state.searchId) {      
-      fetch('http://localhost:3000/api/items?q=' + newId).then((result) => { 
+      fetch('http://localhost:3001/api/items?q=' + newId).then((result) => { 
         return result.json()
       }).then((result) => {     
         this.setState({
@@ -51,6 +51,7 @@ class Looking extends Component {
               return(
                 <Product 
                 id={product.id} 
+                key={i}  
                 title={product.title} 
                 price={product.price.amount}
                 decimals={product.price.decimals} 

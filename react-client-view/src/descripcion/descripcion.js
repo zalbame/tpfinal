@@ -43,7 +43,7 @@ class descripcion extends Component {
                         <img className = 'imagen' src={this.state.producto.item.picture} alt=""/>
                       </div>
                       <div className= 'texto-descripcion'>
-                        {this.state.producto.item.condition == 'new' ? <p>Nuevo</p>:<p>Usado</p>}               
+                        {this.state.producto.item.condition === 'new' ? <p>Nuevo</p>:<p>Usado</p>}               
                         <p className = 'titulo'>{this.state.producto.item.title}</p>
                         <div className = 'precio'>
                           <p className = 'entero'>${this.state.producto.item.price.amount}</p>
