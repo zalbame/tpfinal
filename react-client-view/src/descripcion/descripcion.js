@@ -16,7 +16,7 @@ class descripcion extends Component {
 
   componentDidMount() {
     const id = this.props.match.params.id
-    fetch('http://localhost:3000/api/items/' + id).then((result) => { 
+    fetch('http://localhost:3001/api/items/' + id).then((result) => { 
       return result.json()
     }).then((result) => {
       console.log(result);
